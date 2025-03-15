@@ -1,7 +1,7 @@
 pub mod custom_universe;
 pub mod pattern;
 pub mod cell;
-pub mod width_height_funcs;
+pub mod width_height_funcs; //
 
 use crossterm::event::{self, Event, KeyCode};
 use width_height_funcs::get_grid_size;
